@@ -1,0 +1,57 @@
+body {
+    padding:0px;
+    margin:0px;
+    text-align: center; 
+    background-color: #F2F2EF;
+}
+
+h1 { 
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+
+p {
+  font-family: verdana;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+a{
+    color: red;
+}
+
+img{
+    width:900;
+    height:400;
+}
+#menu ul {
+    padding:10px;
+    margin:0px;
+    float: center;
+    width: 100%;
+    background-color:none;
+    list-style:none;
+    font:20px Tahoma;
+}
+
+#menu ul li { 
+    display: inline; 
+}
+
+#menu ul li a {
+    background-color:none;
+    color: black;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+    padding: 3px 30px;
+    float:center;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:6px solid #EA0000;
+}
+

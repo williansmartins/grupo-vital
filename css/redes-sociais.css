@@ -1,0 +1,65 @@
+.social {
+    width: 314px
+    }
+
+.social div { 
+    position: left; 
+    cursor: pointer; 
+    padding: 0; 
+    list-style: none 
+}
+
+.social .fb2,.tw2,.gp2,.fd2,.in2,.you2 { 
+    z-index: 7; 
+    float: left; 
+    margin: 1px; 
+    position: left; 
+    display: block; 
+}
+
+
+.social .fb2 { 
+    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/Facebook2.png) no-repeat center center #1f69b3; 
+    width: 45px; 
+    height: 40px 
+}
+
+.social div:hover .fb2 {
+    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/Facebook1.png ) no-repeat center center #1f69b3;
+}
+
+    
+    
+.social .tw2 { 
+    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/twitter1.png) no-repeat center center #43b3e5; 
+    width: 45px; 
+    height: 40px 
+}
+
+.social div:hover .tw2 {
+    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/twitter2.png) no-repeat center center #43b3e5
+}
+    
+    
+.social .gp2 { 
+    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/g+1.png) no-repeat center center #da4a38; 
+    width: 45px; 
+    height: 40px 
+}
+
+.social div:hover .gp2 {
+    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/g+2.png) no-repeat center center #da4a38
+}
+
+
+.social .you2 { 
+    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/youtube2.png) no-repeat center center #B93936; 
+    width: 45px; 
+    height: 40px 
+}
+
+.social div:hover .you2 {
+    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/youtube1.png) no-repeat center center #B93936
+}
+
+
