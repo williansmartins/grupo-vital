@@ -30,27 +30,27 @@
 }   
     
 .social .tw2 { 
-    background-image: url("../img/facebook.png"); 
+    background-image: url("../img/twitter.png"); 
 }
 
 .social div:hover .tw2 {
-    background-image: url("../img/facebook-hover.png");
+    background-image: url("../img/twitter-hover.png");
 }
     
 .social .gp2 { 
-    background-image: url("../img/facebook.png"); 
+    background-image: url("../img/google.png"); 
 }
 
 .social div:hover .gp2 {
-    background-image: url("../img/facebook-hover.png");
+    background-image: url("../img/google-hover.png");
 }
 
 .social .you2 { 
-    background-image: url("../img/facebook.png"); 
+    background-image: url("../img//youtube.png"); 
 }
 
 .social div:hover .you2 {
-    background-image: url("../img/facebook-hover.png");
+    background-image: url("../img/youtube-hover.png");
 }
 
 
