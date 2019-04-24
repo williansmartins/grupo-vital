@@ -19,13 +19,16 @@
 
 
 .social .fb2 { 
-    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/Facebook2.png) no-repeat center center #1f69b3; 
+    background: url("../img/facebook.png") no-repeat center center #1f69b3; 
     width: 45px; 
-    height: 40px 
+    height: 40px; 
+    background-size: 45px 40px;
 }
 
 .social div:hover .fb2 {
-    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/Facebook1.png ) no-repeat center center #1f69b3;
+    background: url("../img/facebook.png") no-repeat center center #1f69b3;
+    background-position-y: -2px;
+    background-size: 45px 40px;
 }
 
     
