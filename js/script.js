@@ -1,1 +1,7 @@
-document.getElementById("subtitulo").innerHTML = 5 + 6;
+function navegarParaHome(){
+    document.location.href = "index.html";
+}
+
+function navegarParaSobre(){
+    document.location.href = "sobre.html";
+}
