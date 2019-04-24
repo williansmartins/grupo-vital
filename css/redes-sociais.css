@@ -9,60 +9,48 @@
     list-style: none 
 }
 
-.social .fb2,.tw2,.gp2,.fd2,.in2,.you2 { 
+.social .icone { 
     z-index: 7; 
     float: left; 
     margin: 1px; 
     position: left; 
     display: block; 
+    width: 45px; 
+    height: 40px;
+    background-size: 45px 40px;
 }
 
 
 .social .fb2 { 
-    background: url("../img/facebook.png") no-repeat center center #1f69b3; 
-    width: 45px; 
-    height: 40px; 
-    background-size: 45px 40px;
+    background-image: url("../img/facebook.png"); 
 }
 
 .social div:hover .fb2 {
-    background: url("../img/facebook.png") no-repeat center center #1f69b3;
-    background-position-y: -2px;
-    background-size: 45px 40px;
-}
-
-    
+    background-image: url("../img/facebook-hover.png");
+}   
     
 .social .tw2 { 
-    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/twitter1.png) no-repeat center center #43b3e5; 
-    width: 45px; 
-    height: 40px 
+    background-image: url("../img/facebook.png"); 
 }
 
 .social div:hover .tw2 {
-    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/twitter2.png) no-repeat center center #43b3e5
+    background-image: url("../img/facebook-hover.png");
 }
     
-    
 .social .gp2 { 
-    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/g+1.png) no-repeat center center #da4a38; 
-    width: 45px; 
-    height: 40px 
+    background-image: url("../img/facebook.png"); 
 }
 
 .social div:hover .gp2 {
-    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/g+2.png) no-repeat center center #da4a38
+    background-image: url("../img/facebook-hover.png");
 }
 
-
 .social .you2 { 
-    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/youtube2.png) no-repeat center center #B93936; 
-    width: 45px; 
-    height: 40px 
+    background-image: url("../img/facebook.png"); 
 }
 
 .social div:hover .you2 {
-    background: url(http://dicasbl0gger.xpg.uol.com.br/btnsocial/youtube1.png) no-repeat center center #B93936
+    background-image: url("../img/facebook-hover.png");
 }
 
 
