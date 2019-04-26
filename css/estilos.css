@@ -20,7 +20,8 @@ body {
 }
 
 #cabecalho #menu-lateral{
-    border: solid 1px blue;
+    margin-top: 12px;
+    margin-right: 13px;
     float: right;
 }
 
@@ -29,13 +30,25 @@ body {
 }
 
 #cabecalho #menu-lateral ul li .fa-home{
+    -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+#cabecalho #menu-lateral ul li .fa-home{
     color: white;
     font-size: 25px;
+    -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
 }
 
 #cabecalho #menu-lateral ul li .fa-heart, #cabecalho #menu-lateral ul li .fa-print{
     color: #bfde50;
     font-size: 25px;
+    -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
 }
 #cabecalho #logotipo img{
     width: 60px;
