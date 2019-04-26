@@ -33,6 +33,10 @@ body {
     font-size: 25px;
 }
 
+#cabecalho #menu-lateral ul li .fa-heart, #cabecalho #menu-lateral ul li .fa-print{
+    color: #bfde50;
+    font-size: 25px;
+}
 #cabecalho #logotipo img{
     width: 60px;
 }
