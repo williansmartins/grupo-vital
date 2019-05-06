@@ -7,80 +7,75 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	</head>	
-	<body>		
-		<div id="cabecalho">
-			<div id="logotipo">
-				<img src="img/logo.png" alt="logotipo">
+	<body>	
+		<div class="wrapper">
+			<div id="cabecalho">
+				<div id="logotipo">
+					<img src="img/logo.png" alt="logotipo">
+				</div>
+				<div id="menu-lateral">
+					<ul>
+						<li><i class="fas fa-home"></i></li>
+						<li><i class="fas fa-heart"></i></li>
+						<li><i class="fas fa-print"></i></li>
+					</ul>
+				</div>
 			</div>
-			<div id="menu-lateral">
-				<ul>
-					<li><i class="fas fa-home"></i></li>
-					<li><i class="fas fa-heart"></i></li>
-					<li><i class="fas fa-print"></i></li>
-				</ul>
-			</div>
-		</div>
-		<div id="carrossel" class="">
-			<div id="menu">
-				<ul>
-					<li><a href="#" >Home</a></li>
-					<li><a href="#" onclick="navegarParaSobre()">Sobre</a></li>
-					<li><a href="visao.html">Visão</a></li>
-					<li><a href="">Empresas</a></li>
-					<li><a href="">Produtos</a></li>
-					<li><a href="">Links</a></li>
-					<li><a href="">Contato</a></li>
-				</ul>
-			</div>
+			<div id="carrossel" class="">
+				<div id="menu">
+					<ul>
+						<li><a href="#" >Home</a></li>
+						<li><a href="#" onclick="navegarParaSobre()">Sobre</a></li>
+						<li><a href="">Empresas</a></li>
+						<li><a href="">Produtos</a></li>
+						<li><a href="">Links</a></li>
+						<li><a href="">Contato</a></li>
+					</ul>
+				</div>
 
-			<div class="texto">
-				<h1>Save Our Planet</h1>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, repudiandae. Maiores ex harum facere, quasi quam magnam quae quisquam illum possimus debitis nesciunt minus non natus dolorem incidunt fugiat! Reprehenderit?</div>
-			<div class="imagem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod suscipit fugiat voluptatibus a laborum soluta esse ducimus necessitatibus eos accusantium officia architecto nemo atque vel, dolorem voluptate nihil aliquid iusto.</div>
-		<div id="miolo" class="d-none">
-			<button type="button" class="btn btn-primary">Primary</button>
-			<button type="button" class="btn btn-secondary">Secondary</button>
-			<button type="button" class="btn btn-success">Success</button>
-			<button type="button" class="btn btn-danger">Danger</button>
-			<button type="button" class="btn btn-warning">Warning</button>
-			<button type="button" class="btn btn-info">Info</button>
-			<button type="button" class="btn btn-light">Light</button>
-			<button type="button" class="btn btn-dark">Dark</button>
-
-			<input type="checkbox" name="check" id="">
-			<input type="checkbox" name="check" id="">
-			<input type="checkbox" name="check" id="">
-			<input type="checkbox" name="check" id="">
-			<input type="radio" name="" id="">
-			<input type="radio" name="" id="">
-			<input type="radio" name="" id="">
-			<input type="radio" name="" id="">
-			<input type="text" name="" id="">
-			<input type="password" name="" id="">
-		</div>
-		<div id="descritivo" class="d-none">
-			<img src="http://lorempixel.com/200/200/" alt="descritivo">
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique totam adipisci odio libero impedit quas cum nobis reprehenderit at nemo animi veritatis id, suscipit repellendus possimus quasi! Sapiente, quae alias.</p>
-		</div>
-		<div id="rodape" class="d-none">
-			<div class="social">
-				<div>
-					<a class="icone fb2" href="http://www.facebook.com.br" target="_blank"></a>
+				<div class="texto">
+					<h1>Save Our Planet</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, repudiandae. Maiores ex harum facere</p>
 				</div>
-				<div>
-					<a class="icone gp2" href="http://www.google.com.br" target="_blank"></a>
+			</div>		
+			<div id="miolo">
+				<div class="quadrante">
+					<i class="fas fa-home"></i>
+					<p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsum voluptatum modi, minus delectus enim aperiam maxime sapiente, quasi excepturi minima, quas magnam beatae inventore amet iure ut neque dolorum.</p>
+					<a href="#" class="botao">READ MORE</a>
 				</div>
-				<div>
-					<a class="icone tw2" href="http://www.twitter.com.br" target="_blank"></a>
+				<div class="quadrante">
+					<i class="fas fa-home"></i>
+					<p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsum voluptatum modi, minus delectus enim aperiam maxime sapiente, quasi excepturi minima, quas magnam beatae inventore amet iure ut neque dolorum.</p>
+					<a href="#" class="botao">READ MORE</a>
 				</div>
-				<div>
-					<a class="icone you2" href="http://www.youtube.com.br" target="_blank"></a>
+				<div class="quadrante selecionado">
+					<i class="fas fa-home"></i>
+					<p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsum voluptatum modi, minus delectus enim aperiam maxime sapiente, quasi excepturi minima, quas magnam beatae inventore amet iure ut neque dolorum.</p>
+					<a href="#" class="botao">READ MORE</a>
+				</div>
+			</div> 
+			<div id="descritivo" class="d-none">
+				<img src="http://lorempixel.com/200/200/" alt="descritivo">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique totam adipisci odio libero impedit quas cum nobis reprehenderit at nemo animi veritatis id, suscipit repellendus possimus quasi! Sapiente, quae alias.</p>
+			</div>
+			<div id="rodape" class="d-none">
+				<div class="social">
+					<div>
+						<a class="icone fb2" href="http://www.facebook.com.br" target="_blank"></a>
+					</div>
+					<div>
+						<a class="icone gp2" href="http://www.google.com.br" target="_blank"></a>
+					</div>
+					<div>
+						<a class="icone tw2" href="http://www.twitter.com.br" target="_blank"></a>
+					</div>
+					<div>
+						<a class="icone you2" href="http://www.youtube.com.br" target="_blank"></a>
+					</div>
 				</div>
 			</div>
 		</div>
-		
-		
-		
 		<script src="js/script.js"></script>
 	</body>
 </html>
