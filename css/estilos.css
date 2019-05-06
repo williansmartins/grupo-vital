@@ -10,12 +10,13 @@ body {
 
 #cabecalho{
     outline: solid 1px black;
-    height: 60px;
+    height: 90px;
 
 }
 
 #cabecalho #logotipo{
-    border: solid 1px red;
+    margin-top: 12px;
+    margin-left: 33px;
     float: left;
 }
 
@@ -51,7 +52,7 @@ body {
     box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
 }
 #cabecalho #logotipo img{
-    width: 60px;
+    width: 80px;
 }
 
 #carrossel{
@@ -66,7 +67,7 @@ body {
     outline: solid 1px red;
     float: left;
     width: 390px;
-    height: 100px;
+    height: 150px;
     overflow: scroll;
     text-align: right;
 }
@@ -74,14 +75,15 @@ body {
 #carrossel .texto h1{
     text-align: right;
     color: #c2c242;
-    font-size: 36px;
+    font-size: 34px;
+    font-family: Arial Rounded MT Bold;
 }
 
 #carrossel .imagem{
     outline: solid 1px blue;
     float: left;
     width: 282px;
-    height: 100px;
+    height: 150px;
     overflow: scroll;
 }
 
