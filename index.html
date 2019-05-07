@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/fontawesome.css" />
 	</head>	
 	<body>	
-		<div class="wrapper">
+		<div class="wrapper" ng-app="principal" ng-controller="IndexController">
 			<div id="cabecalho">
 				<div id="logotipo">
 					<img src="img/logo.png" alt="logotipo">
@@ -39,26 +39,22 @@
 				</div>
 			</div>		
 			<div id="miolo">
-				<div class="quadrante selecionado">
+				<div class="quadrante" ng-class="{'selecionado' : (quadranteSelecionado == 1)}" ng-mouseOver="quadranteSelecionado = 1">
 					<i class="fas fa-trash-alt"></i>
 					<p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsum voluptatum modi, minus delectus enim aperiam maxime sapiente, quasi excepturi minima, quas magnam beatae inventore amet iure ut neque dolorum.</p>
 					<a href="#" class="botao">READ MORE</a>
 				</div>
-				<div class="quadrante">
+				<div class="quadrante" ng-class="{'selecionado' : (quadranteSelecionado == 2)}" ng-mouseOver="quadranteSelecionado = 2">
 					<i class="fas fa-recycle"></i>
 					<p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsum voluptatum modi, minus delectus enim aperiam maxime sapiente, quasi excepturi minima, quas magnam beatae inventore amet iure ut neque dolorum.</p>
 					<a href="#" class="botao">READ MORE</a>
 				</div>
-				<div class="quadrante">
+				<div class="quadrante" ng-class="{'selecionado' : (quadranteSelecionado == 3)}" ng-mouseOver="quadranteSelecionado = 3">
 					<i class="fas fa-lightbulb"></i>
 					<p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsum voluptatum modi, minus delectus enim aperiam maxime sapiente, quasi excepturi minima, quas magnam beatae inventore amet iure ut neque dolorum.</p>
 					<a href="#" class="botao">READ MORE</a>
 				</div>
 			</div> 
-			<div id="descritivo" class="d-none">
-				<img src="http://lorempixel.com/200/200/" alt="descritivo">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique totam adipisci odio libero impedit quas cum nobis reprehenderit at nemo animi veritatis id, suscipit repellendus possimus quasi! Sapiente, quae alias.</p>
-			</div>
 			<div id="rodape" class="d-none">
 				<div class="social">
 					<div>
@@ -77,7 +73,8 @@
 			</div>
 		</div>
 		<script src="js/script.js"></script>
+		<script src="js/vendor/angular/angular-1.5.8.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/index.controller.js"></script>
 	</body>
 </html>
-
-
