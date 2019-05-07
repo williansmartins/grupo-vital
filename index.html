@@ -39,37 +39,29 @@
 				</div>
 			</div>		
 			<div id="miolo">
-				<div class="quadrante" ng-class="{'selecionado' : (quadranteSelecionado == 1)}" ng-mouseOver="quadranteSelecionado = 1">
+				<div class="quadrante" ng-class="{'selecionado' : (quadranteSelecionado == 1)}" ng-mouseOver="quadranteSelecionado = 1" ng-mouseOut="quadranteSelecionado = x">
 					<i class="fas fa-trash-alt"></i>
 					<p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsum voluptatum modi, minus delectus enim aperiam maxime sapiente, quasi excepturi minima, quas magnam beatae inventore amet iure ut neque dolorum.</p>
 					<a href="#" class="botao">READ MORE</a>
 				</div>
-				<div class="quadrante" ng-class="{'selecionado' : (quadranteSelecionado == 2)}" ng-mouseOver="quadranteSelecionado = 2">
+				<div class="quadrante" ng-class="{'selecionado' : (quadranteSelecionado == 2)}" ng-mouseOver="quadranteSelecionado = 2" ng-mouseOut="quadranteSelecionado = x">
 					<i class="fas fa-recycle"></i>
 					<p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsum voluptatum modi, minus delectus enim aperiam maxime sapiente, quasi excepturi minima, quas magnam beatae inventore amet iure ut neque dolorum.</p>
 					<a href="#" class="botao">READ MORE</a>
 				</div>
-				<div class="quadrante" ng-class="{'selecionado' : (quadranteSelecionado == 3)}" ng-mouseOver="quadranteSelecionado = 3">
+				<div class="quadrante" ng-class="{'selecionado' : (quadranteSelecionado == 3)}" ng-mouseOver="quadranteSelecionado = 3" ng-mouseOut="quadranteSelecionado = x">
 					<i class="fas fa-lightbulb"></i>
 					<p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsum voluptatum modi, minus delectus enim aperiam maxime sapiente, quasi excepturi minima, quas magnam beatae inventore amet iure ut neque dolorum.</p>
 					<a href="#" class="botao">READ MORE</a>
 				</div>
 			</div> 
-			<div id="rodape" class="d-none">
-				<div class="social">
-					<div>
-						<a class="icone fb2" href="http://www.facebook.com.br" target="_blank"></a>
-					</div>
-					<div>
-						<a class="icone gp2" href="http://www.google.com.br" target="_blank"></a>
-					</div>
-					<div>
-						<a class="icone tw2" href="http://www.twitter.com.br" target="_blank"></a>
-					</div>
-					<div>
-						<a class="icone you2" href="http://www.youtube.com.br" target="_blank"></a>
-					</div>
-				</div>
+		</div>
+		<div id="rodape">
+			<div class="icones">
+				<a class="icone fb2" href="http://www.facebook.com.br" target="_blank"></a>
+				<a class="icone gp2" href="http://www.google.com.br" target="_blank"></a>
+				<a class="icone tw2" href="http://www.twitter.com.br" target="_blank"></a>
+				<a class="icone you2" href="http://www.youtube.com.br" target="_blank"></a>
 			</div>
 		</div>
 		<script src="js/script.js"></script>
