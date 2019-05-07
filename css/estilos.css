@@ -68,18 +68,26 @@ body {
 
 #carrossel .texto{
     float: left;
-    width: 390px;
-    height: 144px;
+    width: 333px;
+    height: 150px;
     overflow: auto;
     text-align: right;
     color: white;
 }
 
+#carrossel .texto p{
+   	color: #0584b0;
+    font-weight: bold;
+    width: 250px;
+    margin-left: 82px;
+    margin-top: 19px;
+}
+
 #carrossel .texto h1{
     text-align: right;
-    color: #c2c242;
+    color: #cdf86f;
     font-size: 34px;
-    font-family: Arial Rounded MT Bold;
+    text-shadow: 1px 1px 3px black;
 }
 
 #carrossel #menu{
