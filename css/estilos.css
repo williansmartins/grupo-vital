@@ -60,7 +60,6 @@ body {
 }
 
 #carrossel{
-    outline: solid 1px #abe0da;
     height: 244px;
     background-image: url("../img/background-carrossel.jpg");
     margin: 0 auto;
@@ -138,7 +137,7 @@ body {
 
 
 #miolo{
-    outline: solid 1px black;
+    float: left;
 }
 
 #miolo .quadrante{
