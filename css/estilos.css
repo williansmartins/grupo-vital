@@ -55,7 +55,8 @@ body {
     font-size: 25px;
 }
 #cabecalho #logotipo img{
-    width: 80px;
+    width: 60px;
+    filter: brightness(100);
 }
 
 #carrossel{
@@ -148,6 +149,7 @@ body {
     float: left;
     margin: 6px;
     text-align: center;
+    position: relative;
 }
 
 #miolo .quadrante .texto{
@@ -174,6 +176,8 @@ body {
     display: block;
     width: 100%;
     line-height: 30px;
+    position: absolute;
+    bottom: 0;
 }
 
 #miolo .quadrante.selecionado .botao{
