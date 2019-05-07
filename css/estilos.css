@@ -55,7 +55,7 @@ body {
     font-size: 25px;
 }
 #cabecalho #logotipo img{
-    width: 60px;
+    width: 80px;
 }
 
 #carrossel{
@@ -78,7 +78,8 @@ body {
 #carrossel .texto h1{
     text-align: right;
     color: #c2c242;
-    font-size: 36px;
+    font-size: 34px;
+    font-family: Arial Rounded MT Bold;
 }
 
 #carrossel #menu{
