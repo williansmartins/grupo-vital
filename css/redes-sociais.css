@@ -1,55 +1,45 @@
-.social {
-    width: 314px
-    }
-
-.social div { 
-    position: left; 
-    cursor: pointer; 
-    padding: 0; 
-    list-style: none 
+#rodape .icones{
+    margin: 0 auto;
+    width: 148px;
 }
 
-.social .icone { 
-    z-index: 7; 
+#rodape .icone {
     float: left; 
-    margin: 1px; 
-    position: left; 
-    display: block; 
-    width: 45px; 
-    height: 40px;
-    background-size: 45px 40px;
+    margin: 7px 7px 7px 0; 
+    width: 30px; 
+    height: 30px;
+    background-size: 30px 30px;
 }
 
-
-.social .fb2 { 
+#rodape .icone.fb2 { 
     background-image: url("../img/facebook.png"); 
 }
 
-.social div:hover .fb2 {
+#rodape .icone.fb2:hover {
     background-image: url("../img/facebook-hover.png");
 }   
     
-.social .tw2 { 
+#rodape .icone.tw2 { 
     background-image: url("../img/twitter.png"); 
 }
 
-.social div:hover .tw2 {
+#rodape .icone.tw2:hover {
     background-image: url("../img/twitter-hover.png");
 }
     
-.social .gp2 { 
+#rodape .icone.gp2 { 
     background-image: url("../img/google.png"); 
 }
 
-.social div:hover .gp2 {
+#rodape .icone.gp2:hover {
     background-image: url("../img/google-hover.png");
 }
 
-.social .you2 { 
+#rodape .icone.you2 { 
     background-image: url("../img//youtube.png"); 
 }
 
-.social div:hover .you2 {
+#rodape .icone.you:hover2 {
     background-image: url("../img/youtube-hover.png");
 }
 
